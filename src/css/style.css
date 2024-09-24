@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary-color: springgreen;
+}
+
+li {
+  list-style-type: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+header nav li {
+  cursor: pointer;
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+}
+header nav li:not(.active):hover {
+  color: var(--primary-color);
+}
+header nav .active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#content {
+  padding: 10px;
+}
