@@ -13,6 +13,7 @@ html {
 
 :root {
   --primary-color: #e95853;
+  --background-color: #fff0e9;
 
   --page-padding: 40px;
 }
@@ -39,6 +40,11 @@ button {
   font-size: 0.9rem;
 }
 
+body {
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
 header {
   padding: 15px var(--page-padding);
   display: flex;
@@ -49,7 +55,10 @@ header {
 }
 
 header .logo {
-  width: 40px;
+  cursor: pointer;
+}
+header .logo span {
+  color: var(--primary-color);
 }
 
 header nav {
@@ -100,5 +109,5 @@ header .auth button:nth-child(2):hover {
 }
 
 #content {
-  padding: 10px var(--page-padding);
+  padding: 15px var(--page-padding);
 }
