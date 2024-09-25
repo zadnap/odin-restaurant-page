@@ -13,6 +13,7 @@ html {
 
 :root {
   --primary-color: #e95853;
+  --sub-text-color: #000000a4;
   --background-color: #fff0e9;
 
   --page-padding: 40px;
@@ -51,6 +52,8 @@ header {
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  top: 0;
+  background-color: var(--background-color);
   box-shadow: 0 3px 5px 0 #00000023;
 }
 
@@ -68,7 +71,7 @@ header nav {
 header nav li {
   position: relative;
   cursor: pointer;
-  color: #00000065;
+  color: var(--sub-text-color);
   transition: all ease 0.2s;
   font-weight: 600;
 }
@@ -109,5 +112,5 @@ header .auth button:nth-child(2):hover {
 }
 
 #content {
-  padding: 15px var(--page-padding);
+  padding: 20px var(--page-padding);
 }
