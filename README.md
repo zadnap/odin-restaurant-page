@@ -11,6 +11,7 @@
 - Menu Screenshots:
 
 ![best delivered section screenshot](./src/assets/previews/best-delivered.png)
+
 ![menu screenshot](./src/assets/previews/menu.png)
 
 - Order List Screenshot:
