@@ -15,7 +15,7 @@
 
 - Order List Screenshot:
 
-![order list screenshot](./src/assets/previews/order-list.png.png)
+![order list screenshot](./src/assets/previews/order-list.png)
 
 ## Requirements
 
