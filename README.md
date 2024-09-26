@@ -2,7 +2,20 @@
 
 - This project represents a simple restaurant commercial landing page
 
-## Screenshots
+## Previews
+
+- Homepage Screenshot:
+
+![homepage screenshot](./src/assets/previews/homepage.png)
+
+- Menu Screenshots:
+
+![best delivered section screenshot](./src/assets/previews/best-delivered.png.png)
+![menu screenshot](./src/assets/previews/menu.png)
+
+- Order List Screenshot:
+
+![order list screenshot](./src/assets/previews/order-list.png.png)
 
 ## Requirements
 
